@@ -1,4 +1,3 @@
 language: csharp
-solution: SdkTests.sln
 script: 
   - xbuild /p:Configuration=Release test/SdkTests/SdkTests.sln
